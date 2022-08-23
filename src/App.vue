@@ -51,7 +51,10 @@ import Footer from './components/Footer.vue';
 
 <style scoped>
   figure img {
-    margin-top: 8rem;
-    border-radius: 10px;
+    margin-top: 7rem;
+    border-radius: 50%;
+    border: 10px solid #F26464;
+    width: 400px;
+    aspect-ratio: 1/1;
   }
 </style>

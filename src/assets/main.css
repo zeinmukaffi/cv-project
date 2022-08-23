@@ -154,9 +154,10 @@ img {
 	justify-content: center;
 	width: 40px;
 	height: 40px;
-	background-color: #000;
-	border-radius: 4px;
-	color: #FFF;
+	background-color: whitesmoke;
+	border-radius: 50%;
+	border: 3px solid #F26464;
+	color: #F26464;
 	font-size: 22px;
 	font-weight: 600;
 	text-align: center;
@@ -418,10 +419,10 @@ span.ds-department {
 .ds-work-list {
 	padding-left: 70px;
 	padding-top: 40px;
-	/* padding-bottom: 40px; */
+	padding-bottom: 40px;
 	padding-right: 70px;
 	background-color: #F6F8FA;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .ds-work-tilte {

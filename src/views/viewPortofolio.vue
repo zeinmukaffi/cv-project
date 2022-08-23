@@ -2,7 +2,7 @@
   <div class="ds-work-section">
     <div class="container">
         <div class="gambar">
-        <RouterLink to="/"><img src="@/assets/images/back-button.png" alt=""></RouterLink>
+        <RouterLink to="/"><img src="@/assets/images/return.png" alt=""></RouterLink>
       <h2 class="ds-heading ms-3">Latest works</h2>
         </div>
       <div class="ds-work-list-section">
@@ -10,15 +10,12 @@
           <div class="row">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
               <section>
-                <h3 class="ds-work-tilte">Tripy mobile app</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut,
-                  congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus
-                  sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
-                <a href="works-setails.html" class="ds-button">Details</a>
+                <h3 class="ds-work-tilte">Aplikasi Peminjaman Barang Sarpras</h3>
+                <p>Aplikasi peminjaman dan pengembalian barang untuk Sarana Prasarana SMK Taruna Bhakti menggunakan Laravel dipadukan dengan template Stisla Admin </p>
               </section>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-              <figure><img src="assets/images/work-1.jpg"></figure>
+              <figure><img src="@/assets/images/dasbor-sarpras.png"></figure>
             </div>
           </div>
         </div>
@@ -26,15 +23,12 @@
           <div class="row">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
               <section>
-                <h3 class="ds-work-tilte">Hello mobile app</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut,
-                  congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus
-                  sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
-                <a href="works-setails.html" class="ds-button">Details</a>
+                <h3 class="ds-work-tilte">Technology Landing Page</h3>
+                <p>Bootstrap Landing Page  dengan beberapa CSS tambahan.</p>
               </section>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-              <figure><img src="assets/images/work-2.jpg"></figure>
+              <figure><img src="@/assets/images/tech.png"></figure>
             </div>
           </div>
         </div>
@@ -42,15 +36,12 @@
           <div class="row">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
               <section>
-                <h3 class="ds-work-tilte">Cute cookies app</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut,
-                  congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus
-                  sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
-                <a href="works-setails.html" class="ds-button">Details</a>
+                <h3 class="ds-work-tilte">Landing Page CSS</h3>
+                <p>Landing Pages CSS Native dengan berbagai macam tema.</p>
               </section>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-              <figure><img src="assets/images/work-3.jpg"></figure>
+              <figure><img src="@/assets/images/vespa.png"></figure>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 <template>
     <h1>
-        Zein Mukaffi
+        Zein Mukaffi Akbarudin
     </h1>
     <h5 class="text-dark">Web Developer</h5>
     <section class="abt">
