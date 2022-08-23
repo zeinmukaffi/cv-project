@@ -9,7 +9,7 @@
                             <p class="me-5">HTML, CSS, JS</p>
                             <div class="progress mb-2">
                                 <div class="progress-bar bg-info" role="progressbar" aria-label="Success example"
-                                    style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="me-5">Figma UI/UX</p>
                             <div class="progress mb-2">
