@@ -28,6 +28,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" fill="#F0EBE3"/></svg>
                 </a>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14586.938942418903!2d106.88763000651036!3d-6.407089080738748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb16e91503db%3A0x4f23f33f189d186c!2sJl.%20Setu%20Golf%20Blok%20Kampung%20Setu%20No.9%2C%20RT.5%2FRW.8%2C%20Cilangkap%2C%20Kec.%20Tapos%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016458!5e0!3m2!1sid!2sid!4v1661244081951!5m2!1sid!2sid" width="600" height="350" style="border:0; margin-top: 50px;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <span class="ds-copyright">© 2022 All rights reserved. Zein Mukaffi Interactive CV</span>
     </div>
