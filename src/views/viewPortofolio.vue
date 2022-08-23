@@ -2,7 +2,7 @@
   <div class="ds-work-section">
     <div class="container">
         <div class="gambar">
-        <RouterLink to="/"><img src="@/assets/images/return.png" alt=""></RouterLink>
+        <RouterLink to="/"><img src="@/assets/images/back(1).png" alt=""></RouterLink>
       <h2 class="ds-heading ms-3">Latest works</h2>
         </div>
       <div class="ds-work-list-section">
@@ -54,5 +54,9 @@
 .gambar img{
     width: 30px;
     height: 30px;
+}
+figure img{
+  border: 5px solid #576F72;
+  border-radius: 15px;
 }
 </style>

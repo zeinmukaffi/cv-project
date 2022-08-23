@@ -45,12 +45,16 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 ul li{
     list-style: disc;
     font-size: 20px;
+    color: #576F72;
 }
 .col-4 section{
     margin-left: 30px;
+}
+p{
+    color: #576F72;
 }
 </style>

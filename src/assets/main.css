@@ -13,15 +13,17 @@ Theme Name: Jason Stroff
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html {
-	font-family: 'Inter', sans-serif;
-	background-color: #FFF
+  font-family: 'Montserrat', sans-serif;
+	background-color: #7D9D9C
 }
 
 body {
-	font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
-	background-color: #FFF;
+	background-color: #7D9D9C;
 	font-weight: 400;
 	font-style: normal;
 	color: #373737;
@@ -46,7 +48,7 @@ input:focus,
 }
 
 a {
-	color: #000
+	color: #F0EBE3
 }
 
 iframe {
@@ -55,15 +57,15 @@ iframe {
 }
 
 ::-moz-selection {
-	background: #000;
+	background: #F0EBE3;
 	text-shadow: none;
-	color: #FFF
+	color: #7D9D9C
 }
 
 ::selection {
-	background: #000;
+	background: #F0EBE3;
 	text-shadow: none;
-	color: #FFF
+	color: #7D9D9C
 }
 
 img {
@@ -89,7 +91,7 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
 	background-color: transparent;
 	background-image: none;
-	color: #000;
+	color: #F0EBE3;
 }
 
 /* 1.2 Typography */
@@ -99,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 figure {
@@ -120,7 +122,7 @@ img {
 	top: 0;
 	width: 100%;
 	z-index: 5;
-	background-color: #FFF;
+	background-color: #7D9D9C;
 	padding: 30px 0;
 	transition-delay: 0s;
 	transition-duration: 0.4s;
@@ -143,7 +145,7 @@ img {
 	text-transform: uppercase;
 	font-size: 18px;
 	letter-spacing: 3px;
-	color: #000;
+	color: #F0EBE3;
 	display: flex;
 	align-items: center;
 }
@@ -154,18 +156,24 @@ img {
 	justify-content: center;
 	width: 40px;
 	height: 40px;
-	background-color: whitesmoke;
+	background-color: #7D9D9C;
 	border-radius: 50%;
-	border: 3px solid #F26464;
-	color: #F26464;
+	border: 3px solid #F0EBE3;
+	color: #F0EBE3;
 	font-size: 22px;
 	font-weight: 600;
 	text-align: center;
 	margin-right: 12px;
 }
+/* 
+.ds-logo span:hover{
+	color: #F0EBE3;
+	border: 3px solid #F0EBE3;
+
+} */
 
 .ds-logo:hover {
-	color: #000;
+	color: #F0EBE3;
 }
 
 .ds-social {
@@ -185,10 +193,10 @@ img {
 
 .ds-social li a {
 	border-radius: 100%;
-	color: #FFF;
+	color: #F0EBE3;
 	width: 24px;
 	height: 24px;
-	background-color: #F26464;
+	background-color: #576F72;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -197,8 +205,8 @@ img {
 }
 
 .ds-social li a:hover {
-	background-color: #000;
-	color: #FFF;
+	background-color: #F0EBE3;
+	color: #F0EBE3;
 }
 
 /*-----------------------------------------------------------------
@@ -231,7 +239,7 @@ img {
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 60px;
-	color: #000;
+	color: #F0EBE3;
 }
 
 .ds-numbervalulist {
@@ -254,7 +262,7 @@ img {
 
 .ds-numbervalulist strong {
 	display: block;
-	color: #F26464;
+	color: #576F72;
 	font-size: 36px;
 	font-weight: 800;
 }
@@ -271,11 +279,11 @@ img {
 .ds-heading {
 	display: inline-block;
 	font-weight: 700;
-	color: #000;
+	color: #F0EBE3;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 16px;
-	border-bottom: 3px solid #F26464;
+	border-bottom: 3px solid #F0EBE3;
 	padding-bottom: 7px;
 	margin-bottom: 23px;
 }
@@ -295,15 +303,15 @@ img {
 	line-height: 13px;
 	font-weight: 600;
 	letter-spacing: 3px;
-	color: #F26464;
+	color: #576F72;
 	padding: 17px 30px;
-	border: 2px solid #F26464;
+	border: 2px solid #576F72;
 	border-radius: 60px;
 }
 
 .ds-button:hover {
-	background-color: #F26464;
-	color: #FFF;
+	background-color: #576F72;
+	color: #F0EBE3;
 }
 
 .ds-arrow-button i {
@@ -333,8 +341,8 @@ img {
 	color: #373737;
 	font-size: 16px;
 	padding: 10px 20px;
-	background-color: #FFF;
-	border: 1px solid #D7D7D7;
+	background-color: #F0EBE3;
+	border: 1px solid #F0EBE3;
 	border-radius: 27px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -421,12 +429,12 @@ span.ds-department {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-right: 70px;
-	background-color: #F6F8FA;
+	background-color: #FEFBF6;
 	margin-bottom: 20px;
 }
 
 .ds-work-tilte {
-	color: #000;
+	color: #576F72;
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 600;
@@ -437,6 +445,7 @@ span.ds-department {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 30px;
+	color: #576F72;
 }
 
 .ds-work-list .ds-button {
@@ -450,7 +459,7 @@ span.ds-department {
 
 .ds-work-det-title {
 	font-weight: 600;
-	color: #000;
+	color: #F0EBE3;
 	font-size: 48px;
 	margin-bottom: 20px;
 }
@@ -458,7 +467,7 @@ span.ds-department {
 .ds-work-det-dep {
 	display: block;
 	font-weight: 600;
-	color: #000;
+	color: #F0EBE3;
 	font-size: 18px;
 }
 
@@ -507,7 +516,8 @@ span.ds-department {
   7. >>> Footer Style
 ----------------------------------------------------------------*/
 .ds-footer {
-	background-color: #000;
+	margin-top: 100px;
+	background-color: #576F72;
 	padding: 50px 0 10px 0;
 }
 
@@ -516,7 +526,7 @@ span.ds-department {
 }
 
 .ds-footer section span {
-	color: rgba(255, 255, 255, 0.5);
+	color: #F0EBE3;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 16px;
@@ -526,14 +536,14 @@ span.ds-department {
 }
 
 .ds-footer section h4 {
-	color: #FFF;
+	color: #F0EBE3;
 	font-size: 48px;
 	font-weight: 700;
 }
 
 .ds-footer section p {
 	letter-spacing: 1.13px;
-	color: #FFF;
+	color: #F0EBE3;
 	font-size: 18px;
 	margin-bottom: 40px;
 }
@@ -549,7 +559,7 @@ span.ds-department {
 }
 
 .ds-copyright a:hover {
-	color: #F26464;
+	color: #576F72;
 }
 
 
